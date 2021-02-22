@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+fieldset {
+	margin-left: 5vw;
+  	border: 3px solid #333333;
+  	width: 60vw;
+  	padding:1vw;
+}
+legend {
+	text-align: left;
+	margin-left: 2vw;
+}
+button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5vw;
+    padding: .5vw;
+}
+button:nth-child(3){
+	background-color: #4269BCFF;
+	color:white;
+}
+.workPlace{
+	margin-top: 5vw;
+}
+.color{
+	margin: 0 5vw;
+	width: 40vw;
+	float:left;
+}
+.color div{
+	margin-top: 1vw;
+}
+.color div:first-child{
+	margin-top: 0;
+}
+#red .ui-slider-range.ui-corner-all.ui-widget-header.ui-slider-range-min{
+	background: rgb(181,63,63);
+}
+#green .ui-slider-range.ui-corner-all.ui-widget-header.ui-slider-range-min{
+	background: rgb(73,181,63);
+}
+#blue .ui-slider-range.ui-corner-all.ui-widget-header.ui-slider-range-min{
+	background: rgb(66,105,188);
+}
+.ui-slider-range {
+    background: #e9ecf1
+}
+#red span.ui-slider-handle.ui-corner-all.ui-state-default {
+    border-color: rgb(181,63,63);
+}
+#green span.ui-slider-handle.ui-corner-all.ui-state-default {
+    border-color: rgb(73,181,63);
+}
+#blue span.ui-slider-handle.ui-corner-all.ui-state-default {
+    border-color: rgb(66,105,188);
+}
+.textBlock{
+	margin: 0 5vw;
+	width: 40vw;
+	float:right;
+	background-color:white;
+}
